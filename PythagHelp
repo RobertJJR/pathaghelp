@@ -1,0 +1,15 @@
+public class Pythagorean{
+	public double calculateHypotenuse(int legA, int legB){
+		double c = Math.sqrt((legA * legA) + (legB * legB));
+		return c;
+	}
+}
+
+
+
+public class PythagoreanTest{
+	public static void main(String[] args){
+		Pythagorean iD = new Pythagorean();
+		System.out.println(iD.calculateHypotenuse(10 , 10));
+	}
+}
